@@ -509,7 +509,7 @@
    `(diff-hl-change ((,class (:background ,nord13))))
    `(diff-hl-insert ((,class (:background ,nord14))))
    `(diff-hl-delete ((,class (:background ,nord11))))
-   
+
     ;; > Evil
     `(evil-ex-info ((,class (:foreground ,nord8))))
     `(evil-ex-substitute-replacement ((,class (:foreground ,nord9))))
@@ -589,6 +589,12 @@
     `(magit-diff-file-header ((,class (:foreground ,nord8 :box (:color ,nord8)))))
     `(magit-diffstat-added ((,class (:foreground ,nord14))))
     `(magit-diffstat-removed ((,class (:foreground ,nord11))))
+    `(magit-diff-added                  ((t (:foreground ,nord14))))
+    `(magit-diff-added-highlight        ((t (:foreground ,nord14
+                                                         :background ,nord3))))
+    `(magit-diff-removed                ((t (:foreground ,nord11))))
+    `(magit-diff-removed-highlight      ((t (:foreground ,nord11
+                                                         :background ,nord3))))
     `(magit-hash ((,class (:foreground ,nord8))))
     `(magit-hunk-heading ((,class (:foreground ,nord9))))
     `(magit-hunk-heading-highlight ((,class (:foreground ,nord9 :background ,nord2))))
