@@ -224,8 +224,9 @@
     `(highlight ((,class (:foreground ,nord8 :background ,nord2))))
     `(hl-line ((,class (:background ,nord1))))
     `(info-menu-star ((,class (:foreground ,nord9))))
-    `(isearch ((,class (:foreground ,nord0 :background ,nord8))))
+    `(isearch ((,class (:foreground ,nord0 :background ,nord3))))
     `(isearch-fail ((,class (:foreground ,nord11))))
+    `(lazy-highlight ((t (:weight bold :background ,nord3))))
     `(link ((,class (:underline t))))
     `(link-visited ((,class (:underline t))))
     `(linum ((,class (:foreground ,nord3 :background ,nord0))))
@@ -281,10 +282,10 @@
     ;; https://github.com/arcticicestudio/nord-emacs/issues/75
     ;; http://git.savannah.gnu.org/cgit/emacs.git/commit/?id=c430f7e23fc2c22f251ace4254e37dea1452dfc3
     ;; https://github.com/emacs-mirror/emacs/commit/c430f7e23fc2c22f251ace4254e37dea1452dfc3
-    `(show-paren-match-face ((,class (:foreground ,nord0 :background ,nord8))))
+    `(show-paren-match-face ((,class (:foreground ,nord6 :background ,nord3))))
     `(show-paren-mismatch-face ((,class (:background ,nord11))))
 
-    `(show-paren-match ((,class (:foreground ,nord0 :background ,nord8))))
+    `(show-paren-match ((,class (:foreground ,nord6 :background ,nord3))))
     `(show-paren-mismatch ((,class (:background ,nord11))))
     `(success ((,class (:foreground ,nord14))))
     `(term ((,class (:foreground ,nord4 :background ,nord0))))
