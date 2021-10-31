@@ -586,6 +586,10 @@
 
     ;; > Magit
     `(magit-branch ((,class (:foreground ,nord7 :weight bold))))
+    `(magit-tag ((t (:foreground ,nord12))))
+    `(magit-branch-remote  ((t (:foreground ,nord14  :weight bold))))
+    `(magit-branch-local   ((t (:foreground ,nord15   :weight bold))))
+    `(magit-branch-current ((t (:foreground ,nord9   :weight bold :box t))))
     `(magit-diff-context-highlight ((,class (:background ,nord2))))
     `(magit-diff-file-header ((,class (:foreground ,nord8 :box (:color ,nord8)))))
     `(magit-diffstat-added ((,class (:foreground ,nord14))))
