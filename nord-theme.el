@@ -118,7 +118,7 @@
   (nord-annotation (if (nord-display-truecolor-or-graphic-p) "#D08770" "brightyellow"))
   (nord-attribute (if (nord-display-truecolor-or-graphic-p) "#8FBCBB" "cyan"))
   (nord-class (if (nord-display-truecolor-or-graphic-p) "#8FBCBB" "cyan"))
-  (nord-comment (if (nord-display-truecolor-or-graphic-p) (nord-theme--brightened-comment-color nord-comment-brightness) "brightblack"))
+  (nord-comment (if (nord-display-truecolor-or-graphic-p) (nord-theme--brightened-comment-color nord-comment-brightness) "magenta"))
   (nord-escape (if (nord-display-truecolor-or-graphic-p) "#D08770" "brightyellow"))
   (nord-method (if (nord-display-truecolor-or-graphic-p) "#88C0D0" "brightcyan"))
   (nord-keyword (if (nord-display-truecolor-or-graphic-p) "#81A1C1" "blue"))
