@@ -118,7 +118,7 @@
   (nord-annotation (if (nord-display-truecolor-or-graphic-p) "#D08770" "brightyellow"))
   (nord-attribute (if (nord-display-truecolor-or-graphic-p) "#8FBCBB" "cyan"))
   (nord-class (if (nord-display-truecolor-or-graphic-p) "#8FBCBB" "cyan"))
-  (nord-comment (if (nord-display-truecolor-or-graphic-p) (nord-theme--brightened-comment-color nord-comment-brightness) "magenta"))
+  (nord-comment (if (nord-display-truecolor-or-graphic-p) (nord-theme--brightened-comment-color nord-comment-brightness) "brightblue"))
   (nord-escape (if (nord-display-truecolor-or-graphic-p) "#D08770" "brightyellow"))
   (nord-method (if (nord-display-truecolor-or-graphic-p) "#88C0D0" "brightcyan"))
   (nord-keyword (if (nord-display-truecolor-or-graphic-p) "#81A1C1" "blue"))
@@ -722,7 +722,10 @@
     `(ivy-remote ((,class (:foreground ,nord14))))
 
     ;; > perspective
-    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))))
+    `(persp-selected-face ((,class (:foreground ,nord8 :weight bold))))
+
+    ;; highlight-numbers
+    `(highlight-numbers-number ((,class (:foreground ,nord-numeric))))))
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
