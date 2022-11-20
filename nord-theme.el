@@ -163,7 +163,7 @@
     `(font-lock-regexp-grouping-construct ((,class (:foreground ,nord13))))
     `(font-lock-string-face ((,class (:foreground ,nord14))))
     `(font-lock-type-face ((,class (:foreground ,nord7))))
-    `(font-lock-variable-name-face ((,class (:foreground ,nord12))))
+    `(font-lock-variable-name-face ((,class (:foreground ,nord11))))
     `(font-lock-warning-face ((,class (:foreground ,nord13))))
     `(italic ((,class (:slant italic))))
     `(shadow ((,class (:foreground ,nord3))))
@@ -586,7 +586,7 @@
 
     ;; > Magit
     `(magit-branch ((,class (:foreground ,nord7 :weight bold))))
-    `(magit-tag ((t (:foreground ,nord12))))
+    `(magit-tag ((t (:foreground ,nord11))))
     `(magit-branch-remote ((t (:foreground ,nord14  :weight bold))))
     `(magit-branch-local ((t (:foreground ,nord15   :weight bold))))
     `(magit-branch-current ((t (:foreground ,nord9   :weight bold :box t))))
