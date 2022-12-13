@@ -163,7 +163,7 @@
     `(font-lock-regexp-grouping-construct ((,class (:foreground ,nord13))))
     `(font-lock-string-face ((,class (:foreground ,nord14))))
     `(font-lock-type-face ((,class (:foreground ,nord7))))
-    `(font-lock-variable-name-face ((,class (:foreground ,nord13))))
+    `(font-lock-variable-name-face ((,class (:foreground ,nord4))))
     `(font-lock-warning-face ((,class (:foreground ,nord13))))
     `(italic ((,class (:slant italic))))
     `(shadow ((,class (:foreground ,nord3))))
